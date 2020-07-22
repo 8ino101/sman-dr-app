@@ -1,0 +1,12 @@
+2020/07/22 15:51:15 Logging to a file in Go!
+2020/07/22 15:51:54 Logging to a file in Go!
+2020/07/22 15:53:48 Logging to a file in Go!
+TRACE: 2020/07/22 16:40:32.630237 /home/ottavio/golib/src/github.com/8ino101/test/test1.go:38: Logging to a file in Go!
+TRACE: 2020/07/22 16:49:26.843000 /home/ottavio/golib/src/github.com/8ino101/test/test1.go:38: Logging to a file in Go!
+TRACE: 2020/07/22 16:49:26.843187 /home/ottavio/golib/src/github.com/8ino101/test/test1.go:43: main started
+TRACE: 2020/07/22 16:49:26.843547 /home/ottavio/golib/src/github.com/8ino101/test/test1.go:73: end of prog
+TRACE: 2020/07/22 16:50:26.906075 /home/ottavio/golib/src/github.com/8ino101/test/test1.go:36: Logging to a file in Go!
+TRACE: 2020/07/22 16:53:05.793423 /home/ottavio/golib/src/github.com/8ino101/test/test1.go:36: Logging to a file in Go!
+TRACE: 2020/07/22 16:53:05.793568 /home/ottavio/golib/src/github.com/8ino101/test/test1.go:41: main started
+TRACE: 2020/07/22 16:53:05.793736 /home/ottavio/golib/src/github.com/8ino101/test/test1.go:71: end of prog
+TRACE: 2020/07/22 17:03:28.199567 /home/ottavio/golib/src/github.com/8ino101/test/test1.go:36: Logging to a file in Go!

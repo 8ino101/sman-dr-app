@@ -1,0 +1,5 @@
+INFO: 2020/07/22 17:33:30 test1.go:45: main started
+INFO: 2020/07/22 17:33:30 test1.go:75: end of prog
+INFO: 2020/07/22 17:35:18 test1.go:45: main started
+WARNING: 2020/07/22 17:35:18 test1.go:75: warning
+INFO: 2020/07/22 17:35:18 test1.go:76: end of prog
