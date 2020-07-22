@@ -7,6 +7,11 @@ import (
 
 type mymap map[bool]string
 
+const (
+
+	dimRand = 100
+)
+
 func main(){
 
 	mappa := mymap{
@@ -17,11 +22,11 @@ func main(){
 
 	fmt.Println("mappa:", mappa)
 	i := 0
-	var myslice = [100]int{}
+	var myslice = [dimRand]int{}
 
 	for i <=99 {
 		var y bool 
-		x := rand.Intn(100)
+		x := rand.Intn(dimRand)
 		toss := rand.Intn(2)
 		if toss == 1 {
 			y = true
