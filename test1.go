@@ -18,9 +18,10 @@ const (
 const (
 
 	_ = iota
-	a = 1 << (10*iota)
+	a = 1 << (1*iota)
 	b
-	c 
+	c
+	d
 )
 
 var (
@@ -46,6 +47,8 @@ func main() {
 	fmt.Printf("%v, %T\n", a, a)
 	fmt.Printf("%v, %T\n", b, b)
 	fmt.Printf("%v, %T\n", c, c)
+	fmt.Printf("%v, %T\n", d, d)
+	
 	mappa := mymap{
 
 		true: "top",
@@ -53,10 +56,10 @@ func main() {
 	}
 
 	fmt.Println("mappa:", mappa)
-	i := 0
+
 	var myslice = [dimRand]int{}
 
-	for i < dimRand {
+	for i := 0; i < dimRand; i++ {
 		var y bool 
 		x := rand.Intn(dimRand)
 		toss := rand.Intn(2)
@@ -67,7 +70,6 @@ func main() {
 		}
 		fmt.Println("--->", mappa[y])
 		myslice[i] = x
-		i++
 	}
 
 	//fmt.Printf("%v, %T\n", x,x)
